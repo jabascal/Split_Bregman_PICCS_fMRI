@@ -16,7 +16,7 @@
 % downloaded from 
 % (http://www.ece.rice.edu/~tag7/Tom_Goldstein/Split_Bregman.html), see Tom
 % Goldstein and Stanley Osher. The Split Bregman Method for L1-Regularized
-% Problems. SIAM J. Imaging Sci., 2(2), 323–343.  
+% Problems. SIAM J. Imaging Sci., 2(2), 323â€“343.  
 %
 % PICCS minimizes
 % min_u (1-alpha)|grad_x,y u|_1 + alpha|grad_x,y(u-uprior)|_1 st. ||Fu-f||^2 < delta, proposed in 
@@ -41,14 +41,14 @@
 % Statistical analysis of the fMRI series reconstructed can be performed
 % using the following software: https://github.com/HGGM-LIM/fmrat 
 % If you use this software please cite the following article:
-% Chavarrías, C., García-Vázquez, V., Alemán-Gómez, Y., Montesinos, P., 
+% ChavarrÃ­as, C., GarcÃ­a-VÃ¡zquez, V., AlemÃ¡n-GÃ³mez, Y., Montesinos, P., 
 % Pascau, J. and Desco, M.,
 % "fMRat: an extension of SPM for a fully automatic analysis of rodent 
 % brain functional magnetic resonance series". 
 % Medical & Biological Engineering & Computing: p. 1-10 (2015)
 %
-% Cristina Chavarrías, Juan FPJ Abascal
-% Departamento de Bioingeniería e Ingeniería Aeroespacial
+% Cristina ChavarrÃ­as, Juan FPJ Abascal
+% Departamento de BioingenierÃ­a e IngenierÃ­a Aeroespacial
 % Universidad Carlos III de Madrid, Madrid, Spain
 % cristina.chavarrias@gmail.com, juanabascal78@gmail.com, desco@hggm.es
 
@@ -77,7 +77,7 @@ data0       =   fft2(image0);
     close('all');
     scrs    =   get(0,'ScreenSize');
     h1       =   figure; set(h1,'Position',[30,scrs(4)/2,scrs(3)/3,scrs(4)*0.8/2]);
-    subplot(2,2,2); imshow('map_full_p_0_01_k_12.tif'); title('Objective: stats. map');
+    subplot(2,2,2); imshow('map_full_p_0_01_k_12.jpg'); title('Objective: stats. map');
 
 % Display the time frames    
     subplot(2,2,1); 
